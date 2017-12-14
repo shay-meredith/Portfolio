@@ -1,8 +1,15 @@
-* {
+*, html, body{
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 .description {
     margin: 20px;
+}
+.showcase-left {
+
+}
+.showcase-right {
+    text-align: right;
 }
 
 
@@ -16,7 +23,6 @@
 
 
 #chingu {
-    font-family: 'Lato', sans-serif;
     color: black;
     font-size: 3em;
 }
@@ -25,4 +31,32 @@
 }
 #chingu-title {
     display: inline;
+}
+
+
+#website-showcase {
+    background-color: black;
+    color: white;
+    font-size: 3em;
+}
+
+
+#design-showcase {
+    background-color: white;
+    color: black;
+    font-size: 3em;
+}
+
+
+#skills {
+    background-color: black;
+    color: white;
+    font-size: 3em;
+}
+
+
+#my-background {
+    background-color: white;
+    color: black;
+    font-size: 3em;
 }
