@@ -1,7 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+
 #opening-frame {
     background-color: black;
     color: white;
     font-family: 'Fira Mono', monospace;
     font-size: 40px;
     height: 100vh;
+}
+
+
+#chingu {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 16em;
+}
+#chingu-img {
+    position: absolute;
+    left: 10px;
+    z-index: -1;
+}
+#chingu-title {
+    position: absolute;
+    left: 150px;
+    margin-top: 100px;
+    font-size: 0.5em;
 }
