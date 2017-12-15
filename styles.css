@@ -2,6 +2,13 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+iframe {
+    border: none;
+    height: 30vh;
+    width: 20vh;
+}
+
 .description {
     margin: 20px;
 }
