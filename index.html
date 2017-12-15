@@ -20,111 +20,151 @@
 
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
     <!--TODO: Check against Frontend Checklist, cross-browser testing, JS testing, SASS, etc. -->
 </head>
+<main>
 
-<body>
-    <div id="opening-frame">
+    <body>
+        <div id="opening-frame">
 
-        <!--TODO: Add onload styling to mimic command line, then transition to looking like a web page-->
-        <div id="hello">Hello</div>
-        <div id="name">I'm Shay</div>
-        <div id="job">A web developer passionate about people</div>
-    </div>
-
-    <!--TODO: Make nav appear below opening frame, scroll with page until reaching top, then stay sticky, 
-              unless scrolled back up to opening frame. -->
-    <nav>
-        <div class="nav-wrapper">
-            <a href="https://www.linkedin.com/in/shay-meredith/" class="brand-logo">Shay Meredith</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li>
-                    <a href="https://github.com/shay-meredith">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/shay-meredith/">Linkedin</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/shay-meredith/">CodePen</a>
-                </li>
-            </ul>
+            <!--TODO: Add onload styling to mimic command line, then transition to looking like a web page-->
+            <div id="hello">Hello</div>
+            <div id="name">I'm Shay</div>
+            <div id="job">A web developer passionate about people</div>
         </div>
-    </nav>
 
-    <div id="chingu">
-        <a href="https://medium.com/chingu/hack-share-learn-40-developer-projects-from-the-chingu-cohorts-f740d080946d">
-        <img src="media/chingu.png" id="chingu-img">
-        <h1 id="chingu-title">Chingu</h1></a>
-        <div class="description">
-            <h2>Current Project: Chingu Cohort</h2>
-            <p class="flow-text">Chingu is a remote dev collaboration community that provides developers and aspiring developers 
-            (increasingly data scientists & designers as well) access to remote project experiences and level-up opportunities.
-            Here is what we do: put motivated people with similar goals together in an environment that gives them the opportunity 
-            to level-up in a way they couldn’t otherwise. Our focus is on accelerated learning and creating impact.</p>
-
-            <div class="skills">
-                <ul> Skills:
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript ES6</li>
+        <!--TODO: Make nav appear below opening frame, scroll with page until reaching top, then stay sticky, 
+              unless scrolled back up to opening frame. -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="https://www.linkedin.com/in/shay-meredith/" class="brand-logo">Shay Meredith</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="https://github.com/shay-meredith">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/shay-meredith/">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/shay-meredith/">CodePen</a>
+                    </li>
                 </ul>
             </div>
-        </div>
-    </div>
+        </nav>
 
-    <div id="website-showcase">
-        <div class="showcase-left">
-            Tribute page
-        </div>
-        <div class="showcase-right">
-            Survey form
-        </div>
-        <div class="showcase-left">
-            Landing page
-        </div>
-        <div class="showcase-right">
-            Technical documentation
-        </div>
-    </div>
+        <div id="chingu">
+            <a href="https://medium.com/chingu/hack-share-learn-40-developer-projects-from-the-chingu-cohorts-f740d080946d">
+                <img src="media/chingu.png" id="chingu-img">
+                <h1 id="chingu-title">Chingu</h1>
+            </a>
+            <div class="description">
+                <h2>Current Project: Chingu Cohort</h2>
+                <p class="flow-text">Chingu is a remote dev collaboration community that provides developers and aspiring developers (increasingly
+                    data scientists & designers as well) access to remote project experiences and level-up opportunities.
+                    Here is what we do: put motivated people with similar goals together in an environment that gives them
+                    the opportunity to level-up in a way they couldn’t otherwise. Our focus is on accelerated learning and
+                    creating impact.</p>
 
-    <div id="design-showcase">
-        <div class="showcase-left">
-            Hamburger menu
+                <div class="skills">
+                    <ul> Skills:
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript ES6</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="showcase-right">
-            Button Medley
+
+        <div id="website-showcase">
+            <div class="showcase-left">
+                Tribute page
+            </div>
+            <div class="showcase-right">
+                Survey form
+            </div>
+            <div class="showcase-left">
+                Landing page
+            </div>
+            <div class="showcase-right">
+                Technical documentation
+            </div>
         </div>
-        <div class="showcase-left">
-            JS30
+
+        <div id="design-showcase">
+            <div class="showcase-left">
+                Hamburger menu
+            </div>
+            <div class="showcase-right">
+                Button Medley
+            </div>
+            <div class="showcase-left">
+                JS30
+            </div>
         </div>
-    </div>
 
-    <div id="skills">
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>MaterializeCSS</li>
-            <li>SASS</li>
-            <li>JavaScript ES6</li>
-        </ul>
-        
-        <!--TODO: Add GitHub info, stats, or card? -->
-    </div>
+        <div id="skills">
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>MaterializeCSS</li>
+                <li>SASS</li>
+                <li>JavaScript ES6</li>
+            </ul>
 
-    <div id="my-background">
-        <h2>Current Project: Chingu Cohort</h2>
-        <p class="flow-text">Chingu is a remote dev collaboration community that provides developers and aspiring developers 
-        (increasingly data scientists & designers as well) access to remote project experiences and level-up opportunities.
-        Here is what we do: put motivated people with similar goals together in an environment that gives them the opportunity 
-        to level-up in a way they couldn’t otherwise. Our focus is on accelerated learning and creating impact.</p>
-    </div>
+            <!--TODO: Add GitHub info, stats, or card? -->
+        </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
-    <script src="index.js"></script>
-</body>
+        <div id="my-background">
+            <h2>Current Project: Chingu Cohort</h2>
+            <p class="flow-text">Chingu is a remote dev collaboration community that provides developers and aspiring developers (increasingly
+                data scientists & designers as well) access to remote project experiences and level-up opportunities. Here
+                is what we do: put motivated people with similar goals together in an environment that gives them the opportunity
+                to level-up in a way they couldn’t otherwise. Our focus is on accelerated learning and creating impact.</p>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+        <script src="index.js"></script>
+    </body>
+</main>
+<footer>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 Copyright Shay Meredith
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+</footer>
 
 </html>
